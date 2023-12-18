@@ -364,6 +364,10 @@ a:hover{
   text-decoration-style: wavy;
 }
 
+
+.cl-btn{
+display: none;
+}
 /*=======================The css mobile verson=============*/
 @media only screen and (max-width: 600px) {
   /*======  footer Css ========*/
@@ -412,6 +416,38 @@ a:hover{
     top: 5px;
     left: 20px;
 }
-
+.mobile{
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+ animation: kit 0.5s;
+}
+@keyframes kit {
+  0%{
+opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.kit{
+  width: 240px;
+margin: 10px;
+}
+.menu-o1{
+  margin: 10px;
+  background-color: #969696;
+  width: 100%;
+  text-align: center;
+}
+.cl-btn{
+  display: block;
+  position: fixed;
+  right: 30px;
+  padding-top: 10px;
+}
     
   }

@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 var menu = document.getElementById("menu");
 menu.onclick = function () {
-  alert("hello")
+  document.getElementById("mobile").style.display="block";
 }
 
 
@@ -210,3 +210,9 @@ function box3x() {
 
 //exampule test 
 
+
+
+////// the cut function 
+function cut(){
+  document.getElementById("mobile").style.display="none";
+}
