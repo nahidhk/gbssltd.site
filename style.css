@@ -265,7 +265,6 @@ width: auto;
 }
 /* email send input */
 .email input {
-
   text-align: center;
   height: 58px;
   width: 60%;
@@ -278,6 +277,13 @@ width: auto;
   color: rgb(255, 0, 212);
   border-top-left-radius: 10px;
  border-bottom-left-radius: 10px;
+ transition: all 0.2s;
+ cursor: pointer;
+}
+.email input:hover{
+  background-color: #00808000;
+  box-shadow: 0 0 10px 0 rgb(255, 255, 255) inset;
+  color: orange;
 }
 .email button {
   border-left: 1px solid rgb(255, 0, 0);
@@ -295,6 +301,8 @@ border-bottom: 1px solid #ffffffab;
  border-bottom-right-radius: 10px;
 font-size: 16px;
 box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+transition: all 0.2s ease;
+
 }
 .email button:hover{
   background-color: orange;
@@ -418,7 +426,7 @@ display: none;
 }
 .mobile{
   display: none;
-  height: 100vh;
+  height: 1000px;
   width: 100%;
   background-color: red;
   position: absolute;
@@ -445,7 +453,7 @@ margin: 10px;
 }
 .cl-btn{
   display: block;
-  position: fixed;
+  position: absolute;
   right: 30px;
   padding-top: 10px;
 }

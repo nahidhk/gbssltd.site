@@ -163,11 +163,7 @@ function facebook() {
 
 
 
-address();
-function address() {
-  var adrs = document.getElementById("adrs");
-  adrs.innerHTML = "পুটিপাড়া,আতাইকুলা,সাঁথিয়া,পাবনা।"
-}
+
 /// foter box style zoom
 var anisit = ` position: fixed;
 top: 50%;
@@ -179,7 +175,8 @@ width: 100%;
 z-index: 100;
 background-color: #00000075;
 animation: apk 0.2s;`
-/// foter box-zoom  
+/// foter box-zoom 
+// home/index.html 
 function box1() {
   document.getElementById("box1").style = anisit;
   document.getElementById("box1-x").style.display = "block";
@@ -203,6 +200,32 @@ function box3() {
 function box3x() {
   document.getElementById("box3").style = `animation: apk1 0.7s;`;
   document.getElementById("box3-x").style.display = "none";
+}
+// new html file system  zoom funtion
+// loction : /src/odet-file/index.html 
+function box4() {
+  document.getElementById("box4").style = anisit;
+  document.getElementById("box4-x").style.display = "block";
+}
+function box4x() {
+  document.getElementById("box4").style = `animation: apk1 0.2s;`;
+  document.getElementById("box4-x").style.display = "none";
+}
+function box5() {
+  document.getElementById("box5").style = anisit;
+  document.getElementById("box5-x").style.display = "block";
+}
+function box5x() {
+  document.getElementById("box5").style = `animation: apk1 0.7s;`;
+  document.getElementById("box5-x").style.display = "none";
+}
+function box6() {
+  document.getElementById("box6").style = anisit;
+  document.getElementById("box6-x").style.display = "block";
+}
+function box6x() {
+  document.getElementById("box6").style = `animation: apk1 0.7s;`;
+  document.getElementById("box6-x").style.display = "none";
 }
 
 

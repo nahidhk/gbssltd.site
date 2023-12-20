@@ -1,0 +1,29 @@
+.content-box{
+    height: 500px;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.cngTxt{
+    font-size: 2rem;
+    color: orange;
+    animation: cng 1s ;
+}
+@keyframes cng {
+10%{color: #ffffff;}   
+20%{color: #7bff00;}
+30%{color: #00aeff;}
+40%{color: #ff9100;}
+50%{color: #ff0095;}
+60%{color: #c300ffff;}
+70%{color: #ff009d;}
+80%{color: #fffb00;}
+90%{color: #1eff00;} 
+100%{color: #001aff;}     
+
+}
