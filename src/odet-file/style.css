@@ -63,7 +63,7 @@
     margin-bottom: 17px;
     height: 160px;
     width: 200px;
-    background-color: rgb(255, 8, 8);
+    background-color: #4680ff;
     display: flex;
     text-decoration: none;
     text-align: center;
@@ -85,6 +85,7 @@
     position: relative;
     bottom: 0;
    border-radius: 10px;
+   z-index: 100;
 }
 .show .odt{
     color: #fff;
@@ -119,6 +120,10 @@
 .odit-box{
  display: flex;
  justify-content: space-evenly;
+}
+.odt1{
+    background-image: url("https://media.istockphoto.com/id/1367357589/photo/red-heart-shaped-sky-at-sunset-beautiful-landscape-with-flowers-love-background-with-copy.jpg?s=1024x1024&w=is&k=20&c=yzVsrvDr8Xgc68nXUmh8RpQ8iu_O8Qplmfat-sfLah8=");
+    background-size: cover;
 }
 
 
