@@ -1,5 +1,5 @@
-.content-box{
-    height: 500px;
+.content-box {
+    height: auto;
     width: 90%;
     border: 1px solid rgba(0, 0, 0, 0.212);
     margin-left: auto;
@@ -9,21 +9,128 @@
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.cngTxt{
+
+.cngTxt {
     font-size: 2rem;
     color: orange;
-    animation: cng 1s ;
+    animation: cng 1s;
 }
-@keyframes cng {
-10%{color: #ffffff;}   
-20%{color: #7bff00;}
-30%{color: #00aeff;}
-40%{color: #ff9100;}
-50%{color: #ff0095;}
-60%{color: #c300ffff;}
-70%{color: #ff009d;}
-80%{color: #fffb00;}
-90%{color: #1eff00;} 
-100%{color: #001aff;}     
 
+@keyframes cng {
+    10% {
+        color: #ffffff;
+    }
+
+    20% {
+        color: #7bff00;
+    }
+
+    30% {
+        color: #00aeff;
+    }
+
+    40% {
+        color: #ff9100;
+    }
+
+    50% {
+        color: #ff0095;
+    }
+
+    60% {
+        color: #c300ffff;
+    }
+
+    70% {
+        color: #ff009d;
+    }
+
+    80% {
+        color: #fffb00;
+    }
+
+    90% {
+        color: #1eff00;
+    }
+
+    100% {
+        color: #001aff;
+    }
+
+}
+
+.odit-book {
+    margin-bottom: 17px;
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 8, 8);
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+ 
+}
+.odit-book:hover .show{
+    height: 160px;
+    opacity: 1;
+}
+.show{
+    transition: all 0.5s;
+    opacity: 0;
+    height: 0px;
+    width: 100%;
+    background-color: #00000077;
+    position: relative;
+    bottom: 0;
+   border-radius: 10px;
+}
+.show .odt{
+    color: #fff;
+    font-size: 13px;
+}
+.read{
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100px;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.read:hover{
+    background-color: #fff;
+    color: black;
+}
+.read1{
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100px;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.read1:hover{
+    background-color: #fff;
+    color: black;
+}
+.odit-box{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+
+
+/*=======================The css mobile verson=============*/
+@media only screen and (max-width: 600px) {
+.odit-box{
+    justify-content: none;
+    display: block;
+}
+.odit-book{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }
