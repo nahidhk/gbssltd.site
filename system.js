@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- the boostrap icon -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="style.css">
-  <!-- nahid hk sever css -->
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>গ্রাম বাংলা সঞ্চয় ও ঋণদান সমবায় সমিতি লিমিটেড </title>
-</head>
-
-<body>
-  
+// the nav system data 
+var nav = `
   <!--nav top only -->
   <section class="nav-01" title="Full Screen= (F11)">
 
@@ -26,7 +8,7 @@
     </div>
     <br>
     <div title="nav-text" class="nav-text">
-      <span><span class="typed-text"></span><span class="cursor blink">&nbsp;</span></span>
+      <span><span class="typed-text">গ্রাম বাংলা সঞ্চয় ও ঋণদান সমবায় সমিতি লিমিটেড</span><span class="cursor blink">&nbsp;</span></span>
     </div>
   </section>
   <!--/////nav top only //////-->
@@ -123,85 +105,9 @@
 
   </section>
   <!--------The End menu opson--------------->
+  `
 
-  <!-- my section -->
-  <section class="content-box">
-    <h1 class="cngTxt">বার্ষিক অডিট প্রতিবেদন</h1>
-    <hr>
-    <center>
-      <div class="odit-box">
-      <!-- file number 1 -->
-      <div class="odit-book">
-
-        <div class="show">
-          <p class="odt">Lorem ipsum dolor sit, amet consectetur ad</p>
-          <p class="read"><i class="bi bi-arrow-right"></i></p>
-          <p class="read1"><i class="bi bi-download"></i>
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <!-- file number 2 -->
-
-      <div class="odit-book  odt1">
-
-        <div class="show" onclick="read1()">
-          <p class="odt" onclick="read1()">2022-2023 সালের<br> অডিট প্রতিবেদন</p>
-          <p class="read" onclick="read1()"><i class="bi bi-arrow-right"></i></p>
-          <p class="read1" onclick="read1()"><i class="bi bi-download" onclick="read1()"></i>
-          </p>
-        </div>
-       
-        <br>
-      </div>
-
-      
-      <!-- file number 3 -->
-
-      <div class="odit-book">
-
-        <div class="show">
-          <p class="odt">Lorem ipsum dolor sit, amet consectetur ad</p>
-          <p class="read"><i class="bi bi-arrow-right"></i></p>
-          <p class="read1"><i class="bi bi-download"></i>
-          </p>
-
-        </div>
-        
-      </div>
-
-
-
-      
-      <!-- file number 4 -->
-
-      <div class="odit-book">
-
-        <div class="show">
-          <p class="odt">Lorem ipsum dolor sit, amet consectetur ad</p>
-          <p class="read"><i class="bi bi-arrow-right"></i></p>
-          <p class="read1"><i class="bi bi-download"></i>
-          </p>
-
-        </div>
-        
-      </div>
-
-
-      <!---end -->
-      </div>
-    </center>
-
-
-  
-
-  </section>
-  <!-- main content  -->
-
-  <!---- foter box -->
+  var foter = `  <!---- foter box -->
   <section class="foter">
     <br><br>
     <center>
@@ -291,14 +197,9 @@
       </div>
     </center>
   </section>
+`
 
-  <!----my script -->
-  <!-- google-->
 
-  <script src="/main.js"></script>
-<script src="index.js"></script>
-  <!-- nahid hk server script link -->
+document.getElementById("nav").innerHTML=nav;
+document.getElementById("foter").innerHTML=foter;
 
-</body>
-
-</html>

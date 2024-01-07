@@ -49,7 +49,17 @@ float: left;
   --teal: #008080;
 }
 
-
+.content-box {
+  height: auto;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
 
 
 

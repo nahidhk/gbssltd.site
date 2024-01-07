@@ -147,7 +147,7 @@ window.location.href="/src/odet-file/index.html"
 // সেবা সমূহ
 
 function function12() {
-  alert("click")
+ window.location.href="/src/seba/"
 }
 
 /// facebook 
