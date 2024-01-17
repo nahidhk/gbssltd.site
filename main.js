@@ -124,7 +124,7 @@ function function6() {
 
 //সর্বশেষ আপডেট
 function function7() {
-  alert("click")
+ window.location.href="/src/node/run/all time up date data - local data update in use for google data base app system by nahidhk.info"
 }
 
 // গ্যালারী ১ 
