@@ -64,7 +64,7 @@ var nav = `
         <div class="menu-o1">
           <button class="btn"> অফিস ব্যবস্থাপনা <i class="fa fa-angle-down" style="font-size:24px"></i></button>
           <div class="dropdown-content">
-            <button class="exe">NaN </button>
+          <button class="exe" onclick="function7()"> সর্বশেষ আপডেট </button>
 
           </div>
         </div>
@@ -78,7 +78,7 @@ var nav = `
           <button class="btn"> ফটো গ্যালারী<i class="fa fa-angle-down" style="font-size:24px"></i></button>
           <div class="dropdown-content">
             <button class="exe" onclick="function6()"> "ভবন’’ উদ্বোধন </button>
-            <button class="exe" onclick="function7()"> সর্বশেষ আপডেট </button>
+          
             <button class="exe" onclick="function8()"> গ্যালারী ১ </button>
 
 

@@ -381,7 +381,10 @@ a:hover{
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
-
+.google-data{
+height: 100vh;
+width: 100%;
+}
 
 .cl-btn{
 display: none;
