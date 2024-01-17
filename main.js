@@ -83,7 +83,7 @@ function function1() {
 
 //উদেশ্য
 function history() {
-  alert("click")
+  window.location.href="/src/purpose";
 }
 
 // ভবিষ্যৎ পরিক্লপনা
